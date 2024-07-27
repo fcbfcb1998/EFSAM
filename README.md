@@ -7,7 +7,10 @@ Firstly, clone **[BAM](https://github.com/chunbolang/BAM)**, and download datase
 
 Then, clone **[SAM](https://github.com/facebookresearch/segment-anything)**, and download model weights.
 
-cd BAM-main, mkdir visual, and visual/query, visual/output, visual/label/, visual label2.
+cd BAM-main, make new folder visual, and visual/query, visual/output, visual/label/, visual label2.
+```
+mkdir visual
+```
 
 Copy our test_EF.py/test_EF.sh and test_save.py/test_save.sh to BAM-main, run 
 
