@@ -1,5 +1,5 @@
 # EFSAM
-Error-Filterd Segment Anything Model for Few-shot Semantic Segmentation
+TITLE: Error-Filterd Segment Anything Model for Few-shot Semantic Segmentation
 
 Our model relies on two models, BAM and SAM.
 
