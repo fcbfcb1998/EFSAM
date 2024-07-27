@@ -18,4 +18,16 @@ Copy our test_EF.py/test_EF.sh and test_save.py/test_save.sh to BAM-main, run
 sh test_save.sh
 ```
 
-Then, copy
+Then, copy visual folder to ../segment-anything-main/notebooks.
+
+Copy our EFSAM.ipynb to ../segment-anything-main/notebooks. Make new file output2 and output2pt.
+```
+mkdir output2
+```
+Run EFSAM.ipynb to get results and save in output2/output2pt.
+
+Copy output2pt to ../BAM-main, run
+```
+sh test_EF.sh
+```
+To get the final results by EF-SAM.
