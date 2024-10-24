@@ -36,7 +36,9 @@ Copy our EFSAM.ipynb to ../segment-anything-main/notebooks. Make new file output
 ```
 mkdir output2
 ```
-Run EFSAM.ipynb to get results and save in output2/output2pt. New: Run EFSAM-multiple.ipynb to get results with multiple object prompts
+Run EFSAM.ipynb to get results and save in output2/output2pt. 
+
+- New: Run EFSAM-multiple.ipynb to get results with multiple object prompts
 
 Copy output2pt to ../BAM-main, run
 ```
