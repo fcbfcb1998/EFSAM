@@ -19,7 +19,7 @@ cp test.sh test.py ${config} ${exp_dir}
 echo ${arch}
 echo ${config}
 
-CUDA_VISIBLE_DEVICES=${GPU_ID} python3 -u test.py \
+CUDA_VISIBLE_DEVICES=${GPU_ID} python3 -u test_EF.py \
         --config=${config} \
         --arch=${arch} \
         2>&1 | tee ${result_dir}/test-$now.log
