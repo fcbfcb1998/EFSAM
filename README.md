@@ -19,7 +19,7 @@ Firstly, clone **[BAM](https://github.com/chunbolang/BAM)**, and download datase
 
 Then, clone **[SAM](https://github.com/facebookresearch/segment-anything)**, and download model weights.
 
-cd BAM-main, make new folder visual, and visual/query, visual/output, visual/label/, visual label2.
+cd BAM-main, make new folder visual, visual/query, visual/output, visual/label, and visual/label2, then make new folder output2pt.
 ```
 mkdir visual
 ```
@@ -30,17 +30,18 @@ Copy our test_EF.py/test_EF.sh and test_save.py/test_save.sh to BAM-main, run
 sh test_save.sh
 ```
 
-Then, copy visual folder to ../segment-anything-main/notebooks.
+Then, cd ../segment-anything-main/notebooks.
 
-Copy our EFSAM.ipynb to ../segment-anything-main/notebooks. Make new file output2 and output2pt.
+Copy our EFSAM.ipynb and EFSAM-multiple.ipynb to ../segment-anything-main/notebooks. Make new file output2 and output2pt.
 ```
 mkdir output2
 ```
-Run EFSAM.ipynb to get results and save in output2/output2pt. 
+Run EFSAM.ipynb to get results and save in ../../BAM-main/output2pt/. 
 
 - New: Run EFSAM-multiple.ipynb to get results with multiple object prompts
+- Note: the mIoU results in EFSAM.ipynb and EFSAM-multiple.ipynb are not the final mIOU.
 
-Copy output2pt to ../BAM-main, run
+cd ../../BAM-main, run
 ```
 sh test_EF.sh
 ```
