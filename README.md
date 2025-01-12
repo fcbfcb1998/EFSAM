@@ -24,7 +24,7 @@ cd BAM-main, make new folder visual, visual/query, visual/output, visual/label, 
 mkdir visual
 ```
 
-Copy our test_EF.py/test_EF.sh and test_save.py/test_save.sh to BAM-main, run 
+Copy our test_EF.py, test_EF.sh and test_save.py, test_save.sh to BAM-main, run 
 
 ```
 sh test_save.sh
@@ -32,14 +32,13 @@ sh test_save.sh
 
 Then, cd ../segment-anything-main/notebooks.
 
-Copy our EFSAM.ipynb and EFSAM-multiple.ipynb to ../segment-anything-main/notebooks. Make new file output2 and output2pt.
+Copy our EFSAM.ipynb and EFSAM-multiple.ipynb to ../segment-anything-main/notebooks. Make new file output2.
 ```
 mkdir output2
 ```
-Run EFSAM.ipynb to get results and save in ../../BAM-main/output2pt/. 
-
-- New: Run EFSAM-multiple.ipynb to get results with multiple object prompts
+Run EFSAM.ipynb or EFSAM-multiple.ipynb to get results and save in ../../BAM-main/output2pt/. 
 - Note: the mIoU results in EFSAM.ipynb and EFSAM-multiple.ipynb are not the final mIOU.
+- Note: Do not use EFSAM-old.ipynb and EFSAM-multiple-old.ipynb
 
 cd ../../BAM-main, run
 ```
