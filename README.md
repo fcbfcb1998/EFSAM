@@ -38,7 +38,7 @@ mkdir output2
 ```
 Run EFSAM.ipynb or EFSAM-multiple.ipynb to get results and save in ../../BAM-main/output2pt/. 
 - Note: the mIoU results in EFSAM.ipynb and EFSAM-multiple.ipynb are not the final mIOU.
-- Note: Do not use EFSAM-old.ipynb and EFSAM-multiple-old.ipynb
+- Note: Do not use EFSAM-old.ipynb and EFSAM-multiple-old.ipynb.
 
 cd ../../BAM-main, run
 ```
