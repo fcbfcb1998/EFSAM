@@ -1,5 +1,5 @@
 # EFSAM
-# Error-Filterd Segment Anything Model for Few-shot Semantic Segmentation
+# Error-Filterd Segment Anything Model for Few-shot Semantic Segmentation (Visual Computer 2025)
 
 # Datasets
 
@@ -45,3 +45,17 @@ cd ../../BAM-main, run
 sh test_EF.sh
 ```
 To get the final results by EF-SAM.
+
+## Citation
+If you find our paper and repo are helpful for your research, please consider citing:
+
+```bibtex
+@article{feng2025learning,
+  title={Learning few-shot semantic segmentation with error-filtered segment anything model},
+  author={Feng, Chen-Bin and Lai, Qi and Liu, Kangdao and Su, Houcheng and Chen, Hao and Luo, Kaixi and Vong, Chi-Man},
+  journal={The Visual Computer},
+  pages={1--15},
+  year={2025},
+  publisher={Springer}
+}
+```
